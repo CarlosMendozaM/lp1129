@@ -556,6 +556,7 @@ int anio,mes,dia;
         ByteArrayOutputStream qr = QRCode.from(valor).to(ImageType.PNG).stream();
         ImageIcon icono = new ImageIcon(qr.toByteArray());
         lblqr.setIcon(icono);
+        //Comenzamos a trabajar colaborativamente
     }//GEN-LAST:event_btngenerarActionPerformed
 
 
